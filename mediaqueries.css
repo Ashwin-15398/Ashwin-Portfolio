@@ -7,7 +7,10 @@
   .about-containers {
     flex-wrap: wrap;
   }
-    
+    #contact,
+    #projects {
+        height: fit-content;
+    }
 }
 @media screen and (max-width: 1200px){
     #desktop-nav{
@@ -46,7 +49,7 @@
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     #contact,
     footer {
         height: 40vh;
@@ -60,8 +63,9 @@
     }
     footer nav {
         height: fit-content;
+        margin-bottom: 2rem;
     }
-    .about-container,
+    .about-containers,
     .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
@@ -79,7 +83,7 @@
     }
 
     .logo {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .nav-links {
         flex-direction: column;
