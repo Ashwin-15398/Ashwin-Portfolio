@@ -412,7 +412,8 @@ article.icon {
 
 footer{
     height: 26vh;
-    margin: 0 1rem;
+    margin: 0 2rem;
+    margin-right: 5%;
 }
 
 footer p {
